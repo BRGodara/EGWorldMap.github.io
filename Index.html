@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			World - All Countries Name (List)
+		</title>
+		<style>
+			body{
+				width: 900px;
+			}
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			#Main{
+				width: 1000px;
+				height: 100%;
+				background: #00FFF7;
+				border: 2px solid black;
+				border-radius: 0;
+			}
+			#Main .Header{
+				margin: 25px;
+				padding: 0px 18px;
+				text-align: center;
+				font-size: 64px;
+				width: 896px;
+				height: 100px;
+				background: #F0FF00;
+				color: #000;
+				border: 2px solid black;
+				border-radius: 25px;
+			}
+			#Asia .Header{
+				margin: 25px;
+				padding: 0px 13px;
+				text-align: center;
+				font-size: 50px;
+				width: 896px;
+				height: 76px;
+				background: #A1EFEF;
+				color: #000;
+				border: 2px solid black;
+				border-radius: 25px;
+			}
+			#ListA{
+				margin: 25px;
+				padding: 0px 13px;
+				text-align: center;
+				font-size: 50px;
+				width: 896px;
+				height: 4030px;
+				background: #00FFF7;
+				color: #000;
+				border: 0px solid black;
+				border-radius: 25px;
+			}
+			#ListA li{
+				text-decoration: none;
+				list-style: none;
+				border: 2px solid black;
+				border-radius: 25px;
+				margin: 10px;
+				background: #42FF00;
+			}
+			#ListA li:hover{
+				background: #248900;
+				color: #fff;
+			}
+			#X{
+				width: 1000px;
+				height: 4210px;
+				background: #000;
+				border: 1px solid black;
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0.4;
+				display: none;
+			}
+			#Info{
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				margin: 25px;
+				padding: 50px 10px;
+				font-size: 64px;
+				width: 925px;
+				height: 500px;
+				background: #00FF82;
+				color: #000;
+				border: 3px solid black;
+				border-radius: 25px;
+				text-align: center;
+				display: none;
+			}
+			#CutX{
+				position: absolute;
+				top: 250px;
+				left: 375px;
+				height: 200px;
+				width: 200px;
+				background: transparent;
+				color: #f00;
+				font-size: 250px;
+			}
+			#CutX:hover{
+				color: #4A0000;
+			}
+			#CouN, #CapN{
+				color: #0D00FF;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="Style.css"/>
+	</head>
+	<body>
+		<div id="Main">
+			<div class="Header">
+				Asia – All Countries List
+			</div>
+			<div id="Asia">
+				<ul id="ListA">
+					<li id="A1" onclick="Clicked(1)">Maldives</li>
+					<li id="A2" onclick="Clicked(2)">Shree Lanka</li>
+					<li id="A3" onclick="Clicked(3)">India</li>
+					<li id="A4" onclick="Clicked(4)">Pakistan</li>
+					<li id="A5" onclick="Clicked(5)">Afghanistan</li>
+					<li id="A6" onclick="Clicked(6)">Nepal</li>
+					<li id="A7" onclick="Clicked(7)">Bhutan</li>
+					<li id="A8" onclick="Clicked(8)">Bangladesh</li>
+					<li id="A9" onclick="Clicked(9)">Mayanmar</li>
+					<li id="A10" onclick="Clicked(10)">Thailand</li>
+					<li id="A11" onclick="Clicked(11)">Laos</li>
+					<li id="A12" onclick="Clicked(12)">Cambodia</li>
+					<li id="A13" onclick="Clicked(13)">Vietnam</li>
+					<li id="A14" onclick="Clicked(14)">Malaysia</li>
+					<li id="A15" onclick="Clicked(15)">Singapore</li>
+					<li id="A16" onclick="Clicked(16)">Brunei</li>
+					<li id="A17" onclick="Clicked(17)">Indonesia</li>
+					<li id="A18" onclick="Clicked(18)">Philippines</li>
+					<li id="A19" onclick="Clicked(19)">Timor-Leste</li>
+					<li id="A20" onclick="Clicked(20)">Taiwan</li>
+					<li id="A21" onclick="Clicked(21)">China</li>
+					<li id="A22" onclick="Clicked(22)">Mongolia</li>
+					<li id="A23" onclick="Clicked(23)">North Korea</li>
+					<li id="A24" onclick="Clicked(24)">South Korea</li>
+					<li id="A25" onclick="Clicked(25)">Japan</li>
+					<li id="A26" onclick="Clicked(26)">Kazakhstan</li>
+					<li id="A27" onclick="Clicked(27)">Kirghistan</li>
+					<li id="A28" onclick="Clicked(28)">Tajikistan</li>
+					<li id="A29" onclick="Clicked(29)">Turkmenistan</li>
+					<li id="A30" onclick="Clicked(30)">Uzbekistan</li>
+					<li id="A31" onclick="Clicked(31)">Georgia</li>
+					<li id="A32" onclick="Clicked(32)">Armenia</li>
+					<li id="A33" onclick="Clicked(33)">Azerbaijan</li>
+					<li id="A34" onclick="Clicked(34)">Turkey</li>
+					<li id="A35" onclick="Clicked(35)">Cyprus</li>
+					<li id="A36" onclick="Clicked(36)">Syria</li>
+					<li id="A37" onclick="Clicked(37)">Lebanon</li>
+					<li id="A38" onclick="Clicked(38)">Israel</li>
+					<li id="A39" onclick="Clicked(39)">Philistine</li>
+					<li id="A40" onclick="Clicked(40)">Jordan</li>
+					<li id="A41" onclick="Clicked(41)">Soudi Arabia</li>
+					<li id="A42" onclick="Clicked(42)">Yemen</li>
+					<li id="A43" onclick="Clicked(43)">Oman</li>
+					<li id="A44" onclick="Clicked(44)">UAE</li>
+					<li id="A45" onclick="Clicked(45)">Qatar</li>
+					<li id="A46" onclick="Clicked(46)">Bahrain</li>
+					<li id="A47" onclick="Clicked(47)">Kuwait</li>
+					<li id="A48" onclick="Clicked(48)">Iraq</li>
+					<li id="A49" onclick="Clicked(49)">Iran</li>
+				</ul>
+			</div>
+		</div>
+		<div id="X">
+			<!---Not Used Yet --->
+		</div>
+		<section id="Info">
+			Country Name – <span id="CouN">India</span>
+			<br>
+			Capital Name – <span id="CapN">New Delhi</span>
+			<br>
+			<span id="CutX" onclick="CutX()">×</span>
+		</section>
+		<div id="Map" onclick="Show_Map()">
+			<span id="Map_Icon" onclick="Show_Map()">Map</span>
+		</div>
+		<div id="Full_Map">
+			<img id="MapDotpng" src="Images/Map.png">
+			<img id="MapDotgif" src="Images/Map.gif">
+			<span id="CutM" onclick="Cut_Map()">×</span>
+			<div id="Buttons">
+				<span id="Next" onclick="Next()">Next</span>
+				<span id="Back" onclick="Back()">Back</span>
+			</div>
+		</div>
+		<script src="Script.js">
+		</script>
+		<section id="Copyright_Information">
+			<span id="F1">Copyright by Eagle Games</span>
+			<span id="F2">Made by BR Godara</span>
+		</section>
+	</body>
+</html>
+
+

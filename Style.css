@@ -1,0 +1,134 @@
+#Map{
+	height: 200px;
+	width: 200px;
+	border: 3px solid black;
+	border-radius: 100px;
+	background: url("images/Icon.png");
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+	background-size: 300px;
+	position: fixed;
+	bottom: 90px;
+	right: 100px;
+	text-align: center;
+	background-color: #CCCCCC;
+}
+#Map_Icon{
+	text-align: center;
+	font-size: 75px;
+	position: relative;
+	top: 39px;
+	color: #fff;
+}
+#Map:hover{
+	background: #008777;
+	color: #FFFFFF;
+	border: 3px solid #000;
+}
+#Map-Icon:hover{
+	color: #FFFFFF;
+}
+#MapDotpng{
+	margin: 25px;
+	padding: 0px 13px;
+	width: 1000px;
+	height: 1000px;
+	background-color: #fff;
+	border: 10px solid #000;
+	border-radius: 0px;
+	position: fixed;
+	top: -26px;
+	left: -32px;
+	display: block;
+}
+#CutM{
+	position: fixed;
+	top: -75px;
+	left: 20px;
+	height: 150px;
+	width: 150px;
+	background: transparent;
+	color: #f00;
+	font-size: 200px;
+}
+#CutM:hover{
+	color: #4A0000;
+}
+#Full_Map{
+	display: none;
+}
+#F1{
+	text-align: center;
+	font-size: 32px;
+	position: relative;
+	left: 75px;
+	color: #0023FF;
+}
+#F2{
+	text-align: center;
+	font-size: 32px;
+	position: relative;
+	left: 225px;
+	color: #0023FF;
+}
+body{
+	background: #F1FF93
+}
+#MapDotgif{
+	margin: 25px;
+	padding: 0px 13px;
+	width: 1000px;
+	height: 1000px;
+	background-color: #fff;
+	border: 10px solid #000;
+	border-radius: 0px;
+	position: fixed;
+	top: -26px;
+	left: -44px;
+	display: none;
+}
+#Next{
+	width: 300px;
+	height: 150px;
+	background-color: #FFFF8E;
+	border: 2px solid #000;
+	border-radius: 25px;
+	position: relative;
+	top: 100px;
+	left: 350px;
+	display: block;
+	font-size: 100px;
+	text-align: center;
+}
+#Back{
+	width: 300px;
+	height: 150px;
+	background-color: #FFFF8E;
+	border: 2px solid #000;
+	border-radius: 25px;
+	position: relative;
+	top: 100px;
+	left: 350px;
+	display: none;
+	font-size: 100px;
+	text-align: center;
+}
+#Next:hover, #Back:hover{
+	background: #74743A;
+	color: #fff;
+}
+#Buttons{
+	width: 1000px;
+	height: 350px;
+	background: #00FFD9;
+	border: 5px solid #000;
+	border-radius: 0px;
+	position: absolute;
+	bottom: -40px;
+	left: 0px;
+	display: block;
+	font-size: 75px;
+	text-align: center;
+}
+
+
